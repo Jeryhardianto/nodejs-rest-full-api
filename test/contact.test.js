@@ -1,7 +1,7 @@
 import {createTestUser, removeAllTestContact, removeTestUser} from "./test-util.js";
 import supertest from "supertest";
 import {web} from "../src/application/web.js";
-import {logger} from "../src/application/logging.js";
+
 
 describe('POST /api/contact', () => {
     beforeEach(async () => {
